@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    display: inline;
+  
+}
+.header{
+    width: auto;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.titolo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline;
+    margin-block: auto;
+    padding-top: 0px;
+
+}
+
+.bottoni{
+    height: 50px;
+    width: 760px;
+    background-color: white;
+    margin-top: 30px;
+    margin-inline: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.task {
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    background-color: rgb(42, 134, 240);
+    border-radius: 5px;
+    margin-left: 111px;
+    height: 30px;
+    width: 90px;
+}
+.section {
+    color: grey;
+    border-color:rgb(209, 209, 209);
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+
+}
+.lista{
+    height: 700px;
+    width: 760px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    background-color: white;
+    margin-top: 10px;
+    margin-inline: auto;
+    
+}
+.titoletti {
+    padding-top: 40px;
+    padding-left: 100px;
+    font-family: sans-serif;
+}
+.check{
+    color: rgb(26, 182, 5);
+    list-style: none;
+   
+}
+.bigDiv{
+    background-color:rgb(240, 240, 240);
+    padding-top:20px;
+}
+.check{
+    font-size: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 7px;
+    height: 14px;
+    width: 14px;
+    padding-left: 2px;
+}
+.serie{
+    list-style: none;
+}
+.new{
+    font-size: 10px;
+    color: white;
+    background-color: rgb(42, 134, 240);
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: sans-serif;
+}
