@@ -14,16 +14,13 @@ body{
     width: auto;
     height: 100px;
     padding-left: 20px;
-    padding-top: 20px;
 
 }
 .titolo{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     font-family: sans-serif;
     display: inline;
-    margin-block: auto;
-    padding-top: 0px;
 
 }
 
@@ -49,7 +46,7 @@ body{
 }
 .section {
     color: grey;
-    border-color:rgb(209, 209, 209);
+    border-color:rgb(236, 235, 235);
     background-color: white;
     border-radius: 5px;
     height: 30px;
@@ -74,14 +71,6 @@ body{
 }
 .check{
     color: rgb(26, 182, 5);
-    list-style: none;
-   
-}
-.bigDiv{
-    background-color:rgb(240, 240, 240);
-    padding-top:20px;
-}
-.check{
     font-size: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -90,9 +79,34 @@ body{
     height: 14px;
     width: 14px;
     padding-left: 2px;
+    margin-bottom: 20px;
+ 
+   
 }
+.red{
+    color: red;
+    font-size: 11px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 7px;
+    height: 14px;
+    width: 14px;
+    padding-left: 2px;
+    margin-bottom: 20px;
+
+}
+.bigDiv{
+    background-color:rgb(240, 240, 240);
+    padding-top:20px;
+}
+
 .serie{
     list-style: none;
+    padding-left: 100px;
+    
+    
+    
 }
 .new{
     font-size: 10px;
@@ -101,4 +115,54 @@ body{
     border-radius: 8px;
     border-color: transparent;
     font-family: sans-serif;
+    
+}
+.purple{
+    font-size: 10px;
+    color: white;
+    background-color: rgba(159, 118, 229, 1);
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: sans-serif;
+}
+.petrol{
+    font-size: 10px;
+    color: white;
+    background-color: rgb(73, 150, 120);
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: sans-serif;
+
+}
+.orange{
+    font-size: 10px;
+    color: white;
+    background-color: rgb(223, 148, 8);
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: sans-serif;
+
+}
+.pink{
+    font-size: 10px;
+    color: white;
+    background-color: rgba(216, 99, 161, 1);
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: sans-serif;
+
+}
+.green{
+    font-size: 10px;
+    color: white;
+    background-color: rgb(138, 156, 35);
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: sans-serif;
+
+}
+
+.intestazione{
+    display: flex;
+    align-items: center;
 }
